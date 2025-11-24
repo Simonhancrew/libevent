@@ -48,6 +48,7 @@ extern "C" {
 
 /* For int types. */
 #include <event2/util.h>
+#include <event2/http.h>
 
 /**
  * the request structure that a server receives.

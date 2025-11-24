@@ -53,6 +53,7 @@ extern "C" {
 #include <event2/util.h>
 /* For struct event */
 #include <event2/event_struct.h>
+#include <event2/bufferevent.h>
 
 struct event_watermark {
 	size_t low;

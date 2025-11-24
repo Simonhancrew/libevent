@@ -35,6 +35,7 @@
  */
 
 #include <event2/visibility.h>
+#include <event2/bufferevent.h>
 
 #define evbuffercb bufferevent_data_cb
 #define everrorcb bufferevent_event_cb

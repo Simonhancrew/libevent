@@ -50,6 +50,7 @@ extern "C" {
 /* For int types. */
 #include <event2/util.h>
 #include <event2/visibility.h>
+#include <event2/dns.h>
 
 /**
   Initialize the asynchronous DNS library.
